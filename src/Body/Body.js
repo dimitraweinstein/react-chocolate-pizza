@@ -5,11 +5,6 @@ export default class Body extends Component {
     render() {
         return (
             <div>
-                <title>
-                    <h1>Chocolate Pizza</h1>
-                    <h6>Posted On 15 Dec 2013 / Desserts</h6>
-                    <img src= 'print-icon.png' alt = 'print-icon' className = 'print-icon' />
-                </title>
                 <main>
                     <img src= 'choco-pizza.png' alt = 'main-pic' className = 'main-pic' />
                     <p>
@@ -25,6 +20,17 @@ export default class Body extends Component {
                 <section>
                     <img src= 'list-bg.png' alt = 'list-background' className = 'list-bg'/>
                 </section>
+                <section>
+                    <img className='author-pic' src='van-pic.png' alt='author'/>
+                    <h4>Vanessa Stevenson</h4>
+                    <p>
+                        Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+                    </p>
+                    <button>Share Recipe</button>
+                </section>
+                <>
+                    <img src='hr-img.png' alt='hr-icon' className='hr-icon' />
+                </>
             </div>
         )
     }

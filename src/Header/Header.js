@@ -19,6 +19,9 @@ export default class Header extends Component {
                     <img src = 'rss-icon.png' alt = 'rss-icon' className = 'icon' />
                     <img src = 'mail-icon.png' alt = 'mail-icon' className = 'icon' />
                 </section>
+                <section>
+                    <img height='10' src='hr-img.png' alt='hr-icon' className='hr-icon' />
+                </section>
             </div>
         )
     }
